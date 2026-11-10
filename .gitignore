@@ -1,0 +1,44 @@
+# Keys: Wi-Fi name, password and AES key. Compiled firmware contains them too.
+firmware/include/secrets.h
+secrets.h
+.pio/
+*.bin
+*.elf
+
+# Recordings and analysis output (images of a person, calibration, session data)
+raw_image/
+output/
+*.jpg
+*.jpeg
+*.png
+*.part
+*.csv
+*.mkv
+*.mp4
+*.avi
+*.fit
+
+# Downloaded model files
+models/
+*.onnx
+*.zip
+
+# Local notes, not for the public repo
+BUILD_PLAN.md
+
+# Environments and credentials
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+
+# Python, editor and tool state
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
